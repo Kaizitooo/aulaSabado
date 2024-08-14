@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tabelaContainer {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#titleLista {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tabelaEstudantes {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td, tbody th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tabelaEstudantes th, .tabelaEstudantes td {
+    text-align: left;
+}
+
+.tabelaEstudantes th {
+    font-weight: bold;
+}
